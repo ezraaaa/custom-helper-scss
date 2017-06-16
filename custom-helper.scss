@@ -97,6 +97,18 @@
     flex-grow: 2;
 }
 
+.space-around {
+    justify-content: space-around;
+}
+
+//TEXT TRANSFORM
+.capitalize {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
 
 //NO OUTLINE
 .no-outline {
