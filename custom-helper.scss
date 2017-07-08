@@ -32,6 +32,32 @@
     transform: translate(-50%,-50%)
 }
 
+// OVERFLOW
+.overflow-hidden {
+    overflow: hidden
+}
+
+// FONT
+.smaller {
+    font-size: smaller;
+}
+
+.larger {
+    font-size: larger;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.black {
+    font-weight: 900;
+}
+
 // BORDER
 .border {
     border: 1px solid rgba(0,0,0,0.2);
@@ -71,29 +97,56 @@
 .width-10 {
     width: 10%;
 }
+.width-15 {
+    width: 15%;
+}
 .width-20 {
     width: 20%;
+}
+.width-25 {
+    width: 25%;
 }
 .width-30 {
     width: 30%;
 }
+.width-35 {
+    width: 35%;
+}
 .width-40 {
     width: 40%;
+}
+.width-45 {
+    width: 45%;
 }
 .width-50 {
     width: 50%;
 }
+.width-55 {
+    width: 55%;
+}
 .width-60 {
     width: 60%;
+}
+.width-65 {
+    width: 65%;
 }
 .width-70 {
     width: 70%;
 }
+.width-75 {
+    width: 75%;
+}
 .width-80 {
     width: 80%;
 }
+.width-85 {
+    width: 85%;
+}
 .width-90 {
     width: 90%;
+}
+.width-95 {
+    width: 95%;
 }
 .width-100 {
     width: 100%;
@@ -142,12 +195,20 @@
     justify-content: flex-start;
 }
 
+.justify-flex-end {
+    justify-content: flex-end;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
 .align-items-center {
     align-items: center;
 }
 
-.justify-flex-end {
-    justify-content: flex-end;
+.align-items-end {
+    align-items: flex-end;
 }
 
 //TEXT TRANSFORM
@@ -157,6 +218,11 @@
 
 .uppercase {
     text-transform: uppercase;
+}
+
+//CURSOR
+.cursor-pointer {
+    cursor: pointer;
 }
 
 //NO OUTLINE
